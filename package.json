@@ -1,0 +1,25 @@
+{
+  "name": "@props-labs/mcp-servers",
+  "version": "0.1.0",
+  "description": "Collection of MCP servers created by Props Labs",
+  "private": true,
+  "author": "Props Labs",
+  "license": "MIT",
+  "homepage": "https://props.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/props-labs/mcp-servers.git"
+  },
+  "workspaces": [
+    "src/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "packageManager": "pnpm@9.12.1"
+} 
